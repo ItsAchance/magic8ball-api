@@ -1,4 +1,4 @@
-FROM golang
+FROM golang:1.26.2
 
 COPY go.mod go.sum ./
 RUN go mod download
